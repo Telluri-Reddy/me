@@ -28,6 +28,13 @@ class _MyappState extends State<Myapp> {
                 backgroundImage: AssetImage('images/lion.jpg'),
                 radius: 50.0,
               ),
+              SizedBox(
+                width: 200.0,
+                height: 20.0,
+                child: Divider(
+                  color: Colors.tealAccent,
+                ),
+              ),
               Text(
                 'Telluri Sai Sasi Kumar Reddy',
                 style: TextStyle(
